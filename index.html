@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بروفايل | عبد الفتاح طه علي سنان</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+         :root {
+            --blue-dark: #1A2B49;
+            --gray-dark: #333333;
+            --gold: #D4AF37;
+            --white-beige: #F5F5F5;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, var(--blue-dark), var(--gray-dark));
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: var(--white-beige);
+        }
+        
+        .profile-box {
+            background: var(--white-beige);
+            border-radius: 20px;
+            padding: 35px 25px 25px 25px;
+            width: 100%;
+            max-width: 650px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            color: var(--gray-dark);
+        }
+        /* صورة شخصية دائرية */
+        
+        .profile-image {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            border: 4px solid var(--gold);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            font-weight: 800;
+        }
+        
+        h2 {
+            font-size: 18px;
+            margin-top: 0;
+            color: var(--gray-dark);
+            font-weight: 600;
+        }
+        
+        .contact-info {
+            margin: 25px 0;
+        }
+        
+        .contact-info a {
+            display: block;
+            color: var(--white-beige);
+            background: var(--blue-dark);
+            margin: 10px auto;
+            padding: 12px 15px;
+            border-radius: 30px;
+            text-decoration: none;
+            max-width: 340px;
+            transition: 0.3s ease;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        
+        .contact-info a:hover {
+            background: var(--gold);
+            color: var(--blue-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
+        }
+        
+        .email {
+            font-size: 15px;
+            line-height: 1.8;
+            margin-top: 10px;
+        }
+        
+        .email i {
+            color: var(--gold);
+            margin-left: 6px;
+        }
+        
+        .email a {
+            color: var(--gray-dark);
+            /* لون النص */
+            text-decoration: none;
+        }
+        
+        .email a:hover {
+            color: var(--blue-dark);
+            /* لون عند المرور */
+            text-decoration: underline;
+        }
+        /* شبكة الشعارات */
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+            justify-items: center;
+            align-items: center;
+        }
+        
+        .logo-item {
+            width: 80px;
+            height: 80px;
+            border-radius: 15px;
+            overflow: hidden;
+            background: var(--white-beige);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .logo-item img {
+            max-width: 70%;
+            max-height: 70%;
+            object-fit: contain;
+            transition: transform 0.3s;
+        }
+        
+        .logo-item:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 22px;
+            }
+            h2 {
+                font-size: 15px;
+            }
+            .contact-info a {
+                font-size: 14px;
+                padding: 10px 0;
+            }
+            .logo-item {
+                width: 60px;
+                height: 60px;
+            }
+            .logo-grid {
+                gap: 10px;
+            }
+            .profile-image {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-box">
+        <!-- الصورة الشخصية -->
+
+        <h1>عبد الفتاح طه علي سنان</h1>
+        <h2>ABDEL FATAH TAHA ALI SENAN</h2>
+
+        <div class="contact-info ">
+            <a href="https://wa.me/96896025353 " target="_blank "> سلطنة عمان – (OM WhatsApp)
+<i class="fab fa-whatsapp "></i></a>
+            <a href="https://wa.me/966500077697 " target="_blank ">المملكة العربية السعودية – (SA WhatsApp)
+ <i class="fab fa-whatsapp "></i></a>
+            <a href="https://wa.me/971543600523 " target="_blank ">الإمارات العربية المتحدة – (AE WhatsApp)
+ <i class="fab fa-whatsapp "></i></a>
+        </div>
+        <div class="email ">
+            <p><i class="fas fa-envelope "></i>
+                <a href="mailto:info@cvgtllc.com ">info@cvgtllc.com</a>
+            </p>
+            <p><i class="fas fa-envelope "></i>
+                <a href="mailto:almalmasraqi@gmail.com ">almalmasraqi@gmail.com</a>
+            </p>
+        </div>
+
+
+        <!-- شبكة الشعارات -->
+        <div class="logo-grid ">
+            <div class="logo-item "><img src="image/1.png " alt="logo1 "></div>
+            <div class="logo-item "><img src="image/2.png " alt="logo2 "></div>
+            <div class="logo-item "><img src="image/3.png " alt="logo3 "></div>
+            <div class="logo-item "><img src="image/4.png " alt="logo4 "></div>
+            <div class="logo-item "><img src="image/5.png " alt="logo5 "></div>
+            <div class="logo-item "><img src="image/6.png " alt="logo6 "></div>
+            <div class="logo-item "><img src="image/7.png " alt="logo7 "></div>
+            <div class="logo-item "><img src="image/8.png " alt="logo8 "></div>
+            <div class="logo-item "><img src="image/9.png " alt="logo9 "></div>
+            <div class="logo-item "><img src="image/10.png " alt="logo10 "></div>
+            <div class="logo-item "><img src="image/11.png " alt="logo11 "></div>
+            <div class="logo-item "><img src="image/12.png " alt="logo12 "></div>
+            <a href="https://ais-spid.github.io/almalmas_alraqi/">
+                <div class="logo-item "><img src="image/13.png " alt="logo12 "></div>
+        </div>
+        </a>
+    </div>
+</body>
+
+</html>
